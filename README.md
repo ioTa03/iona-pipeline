@@ -26,21 +26,6 @@ This project leverages deep learning to segment and recognize objects in images.
 
 ## Models and Tasks
 
-### 1. Mask R-CNN (maskrcnn_resnet50_fpn)
-- **Task**: Image Segmentation
-- **Purpose**: Segments objects in the input image, providing masks, bounding boxes, and labels for detected objects.
-
-### 2. VGG16
-- **Task**: Object Identification
-- **Purpose**: Identifies and classifies the objects extracted from the segmentation step.
-
-### 3. BLIP (Salesforce/blip-image-captioning-base)
-- **Task**: Image Captioning / Summarization
-- **Purpose**: Generates captions or summaries for the extracted objects.
-
-### 4. EasyOCR
-- **Task**: Text Extraction
-- **Purpose**: Extracts any text present in the segmented objects or images.
 
 ### 1. Mask R-CNN (maskrcnn_resnet50_fpn)  
 - **Function**: Object Segmentation  
