@@ -44,10 +44,3 @@ This project leverages deep learning to segment and recognize objects in images.
 - **Role**: Identifies and extracts embedded text from segmented objects or images for further analysis.  
 
 
-- **app.py**: The main application file integrating all steps of the pipeline and serving the Streamlit interface.
-- **segmentation.py**: Contains the code for segmenting images using Mask R-CNN.
-- **identification.py**: Handles object identification using pre-trained models.
-- **mapping.py**: Maps identified objects to their descriptions.
-- **data/**: Directory for storing input images, segmented objects, and the SQLite database.
-- **requirements.txt**: Lists all dependencies required to run the project.
-
